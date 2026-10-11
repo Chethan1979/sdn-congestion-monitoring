@@ -1,0 +1,10 @@
+{
+  "endpoints": {
+    "monitoring_server": {
+      "bind_host": "0.0.0.0",
+      "mgmt_ip": "192.168.100.254",
+      "telemetry_port": 9998,
+      "stats_port": 9999
+    }
+  }
+}
