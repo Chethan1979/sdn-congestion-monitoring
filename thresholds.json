@@ -1,0 +1,18 @@
+{
+    "metric": "link_utilization_percent",
+    "thresholds": {
+        "warning": 60,
+        "high": 75,
+        "critical": 90
+    },
+    "levels": {
+        "normal": "Below 60%",
+        "warning": "60% to below 75%",
+        "high": "75% to below 90%",
+        "critical": "90% or above"
+    },
+    "alert_settings": {
+        "enabled": true,
+        "log_file": "logs/alerts.log"
+    }
+}
